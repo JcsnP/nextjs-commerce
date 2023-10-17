@@ -43,5 +43,32 @@
     "price": 810000,
     "description": "The Lockheed Martin/Boeing F-22 Raptor is an American single-seat, twin-engine, supersonic all-weather stealth fighter aircraft developed for the United States Air Force (USAF). As a product of the USAF's Advanced Tactical Fighter (ATF) program the aircraft was designed as an air superiority fighter, but also incorporates ground attack, electronic warfare, and signals intelligence capabilities.",
     "type": "defend-systems"
+  },
+  {
+    "id": 6,
+    "name": "macbook-pro-16-m2",
+    "title": "2023 Apple MacBook Pro with Apple M2 Pro Chip 16-inch",
+    "image": "https://www.notebookcheck.net/fileadmin/Notebooks/Apple/MacBook_Pro_16_2023_M2_Max/teaser.jpg",
+    "price": 1200,
+    "description": "The 2021 redesign of the MacBook Pro supercharged the lineup, adding Apple Silicon, plenty of ports, a 1080p webcam and even made it thicker to accommodate it all. It was a bold move (and in some cases, a big reversal for Apple). Now, the new 14-inch and 16-inch MacBook Pros maintain everything that was great about that design, but updates them to the M2 Pro and M2 Max chips, adding more power and endurance than before.",
+    "type": "apple"
+  },
+  {
+    "id": 7,
+    "name": "iphone 15 pro max",
+    "title": "Apple iPhone 15 Pro Max 256GB Natural Titanium",
+    "image": "https://media-cdn.bnn.in.th/332488/iPhone_15_Pro_Max_Natural_Titanium_1-square_medium.jpg",
+    "price": 590,
+    "description": "The iPhone 15 Pro Max (starting at $1,199) seems like a modest update to Apple's premiere smartphone at a glance, but it packs a harder punch than expected. Based on its lighter build, speedier performance, helpful Action button, and capable software, the iPhone 15 Pro Max is already a winner. Switching from Apple's old, proprietary Lightning port to the industry standard USB-C may seem overdue, but it expands the iPhone's capabilities in more ways than you might imagine. Add in superior battery life, a longer camera zoom range, and higher base storage than the smaller iPhone 15 Pro, and it's clear the 15 Pro Max is the best iPhone for serious creators and power users, as well as our Editors' Choice winner.",
+    "type": "apple"
+  },
+  {
+    "id": 8,
+    "name": "tim-cook",
+    "title": "Tim Cook",
+    "image": "https://imageio.forbes.com/specials-images/imageserve/61b9144f65931aadf0fc3b9c/Apple-s--CEO-Tim-Cook/960x0.jpg?format=jpg&width=960",
+    "price": "FREE",
+    "description": "An American business executive who has been the chief executive officer of Apple Inc. since 2011. Cook previously served as the company's chief operating officer under its co-founder Steve Jobs.",
+    "type": "apple"
   }
 ]

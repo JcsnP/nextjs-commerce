@@ -7,6 +7,8 @@ import Hero from '@/components/layout/hero';
 export default function Home() {
   return (
     <Fragment>
+      <Hero title="All Products" image="/images/all-products.jpg" />
+
       <div className="container mx-auto">
         <h1 className="title">Our Products</h1>
 

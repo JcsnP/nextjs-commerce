@@ -1,4 +1,5 @@
 import { readablePrice } from "@/lib/price";
+import { readableDescription } from "@/lib/text";
 import Image from "next/image";
 
 export default function ProductCard(props) {
@@ -16,12 +17,12 @@ export default function ProductCard(props) {
       </div>
 
       <div className="p-3">
-        <h1 className="text-xl font-semibold mb-1">{title}</h1>
+        <h1 className="text-xl font-semibold mb-1 truncate">{title}</h1>
         <small className="text-rose-500 font-semibold mb-1">
           {readablePrice(price)}
         </small>
-        <p className="text-justify text-sm text-slate-600 h-32 overflow-y-hidden">
-          {description}
+        <p className="text-justify text-sm text-slate-600 h-30 overflow-y-hidden">
+          {readableDescription(description)}
         </p>
       </div>
 
