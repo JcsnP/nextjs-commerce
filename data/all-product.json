@@ -70,5 +70,23 @@
     "price": "FREE",
     "description": "An American business executive who has been the chief executive officer of Apple Inc. since 2011. Cook previously served as the company's chief operating officer under its co-founder Steve Jobs.",
     "type": "apple"
+  },
+  {
+    "id": 9,
+    "name": "alienware-r13",
+    "title": "Alienware Aurora R13",
+    "image": "https://th.dellexperience.co/wp-content/uploads/2022/08/awaurora-r13-xsy-05-bk-clear-panel-cryo-cooled-1280x1280-1.jpeg",
+    "price": 790,
+    "description": "Elevate your gaming experience with Alienware's first Cryo-Tech™ enabled gaming desktop. Immerse yourself in the game powered by 12th Gen Intel processors.",
+    "type": "pc"
+  },
+  {
+    "id": 10,
+    "name": "alienware-r15",
+    "title": "Alienware Aurora R15",
+    "image": "https://th.dellexperience.co/wp-content/uploads/2023/09/awr15-csy-00015rf-wh-1280x1280-1.jpeg",
+    "price": 890,
+    "description": "The Alienware Aurora R15 ($1,399 to start) is an excellent gaming PC that improves upon its predecessors in a few key ways, packing the most powerful components you can afford in an attractive, easy-to-open chassis.",
+    "type": "pc"
   }
 ]
