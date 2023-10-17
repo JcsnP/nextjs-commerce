@@ -1,5 +1,6 @@
 import Link from "next/link";
 import SearchInput from "../input/search-input";
+import Image from "next/image";
 
 export default function Navbar() {
   return (
@@ -20,7 +21,14 @@ export default function Navbar() {
             <Link href="/defend-systems">Defend Systems</Link>
           </li>
           <li>
-            <button className="bg-rose-600 py-0.5 px-2 rounded-md hover:bg-rose-700">Subscribe</button>
+            <button className="bg-rose-600 py-0.5 px-2 rounded-md hover:bg-rose-700">
+              Subscribe
+            </button>
+          </li>
+          <li>
+            <Link href="/cart">
+              <Image src="/icons/cart.svg" width={28} height={28} alt="cart icon" />
+            </Link>
           </li>
         </ul>
       </div>

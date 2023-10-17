@@ -10,7 +10,7 @@ export default function ApplePage() {
     <Fragment>
       <Hero title="Apple" image="/images/apple.jpg" />
 
-      <div className="container mx-auto">
+      <div className="container mx-auto mb-4">
         <div className="flex items-center justify-between">
           <h1 className="title">Apple Products</h1>
           <SearchInput placeholder="iMac 2023" />

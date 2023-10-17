@@ -10,7 +10,7 @@ export default function PCPage() {
     <Fragment>
       <Hero title="Personal Computer" image="/images/pc.jpg" />
 
-      <div className="container mx-auto">
+      <div className="container mx-auto mb-4">
         <div className="flex items-center justify-between">
           <h1 className="title">Personal Computer</h1>
           <SearchInput placeholder="Alienware Aurora R69" />

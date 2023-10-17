@@ -18,6 +18,14 @@ export default function ViewProduct() {
 
   const product = findById(productId)
 
+  if(!product) {
+    return (
+      <div className="w-full min-h-screen flex items-center justify-center">
+        Product Not Found
+      </div>
+    );
+  }
+
   return (
     <div className="container mx-auto">
       <h1 className="my-2 border rounded-md border-gray-200 shadow-sm w-fit px-3 hover:bg-gray-200">

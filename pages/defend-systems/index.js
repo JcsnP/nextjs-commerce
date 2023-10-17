@@ -10,7 +10,7 @@ export default function DefendSystemsPage() {
     <Fragment>
       <Hero title="Defend Systems" image="/images/defend-systems.jpg" />
 
-      <div className="container mx-auto">
+      <div className="container mx-auto mb-4">
         <div className="flex items-center justify-between">
           <h1 className="title">Defend Systems</h1>
           <SearchInput placeholder="Lockheed Martin F-22 Raptor" />

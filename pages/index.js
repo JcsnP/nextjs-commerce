@@ -9,7 +9,7 @@ export default function Home() {
     <Fragment>
       <Hero title="All Products" image="/images/all-products.jpg" />
 
-      <div className="container mx-auto">
+      <div className="container mx-auto mb-4">
         <h1 className="title">Our Products</h1>
 
         <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
