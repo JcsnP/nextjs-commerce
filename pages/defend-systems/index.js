@@ -13,11 +13,12 @@ export default function DefendSystemsPage() {
       <div className="container mx-auto">
         <div className="flex items-center justify-between">
           <h1 className="title">Defend Systems</h1>
-          <SearchInput />
+          <SearchInput placeholder="Lockheed Martin F-22 Raptor" />
         </div>
         <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
           {products.map((item, key) => (
             <ProductCard
+              id={item.id}
               title={item.title}
               image={item.image}
               price={item.price}

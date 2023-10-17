@@ -1,9 +1,10 @@
 import { readablePrice } from "@/lib/price";
 import { readableDescription } from "@/lib/text";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function ProductCard(props) {
-  const { title, image, price, description } = props
+  const { id, title, image, price, description } = props
 
   return (
     <div className="border w-full rounded-md shadow-md">
@@ -17,7 +18,9 @@ export default function ProductCard(props) {
       </div>
 
       <div className="p-3">
-        <h1 className="text-xl font-semibold mb-1 truncate">{title}</h1>
+        <h1 className="text-xl font-semibold mb-1 truncate">
+          <Link href={`/product/${id}`}>{title}</Link>
+        </h1>
         <small className="text-rose-500 font-semibold mb-1">
           {readablePrice(price)}
         </small>

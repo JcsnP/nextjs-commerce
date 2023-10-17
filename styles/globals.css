@@ -9,3 +9,7 @@
 .product-card--button {
   @apply w-full border py-1 rounded-md shadow-sm;
 }
+
+.product-view--button {
+  @apply w-full border py-1.5 rounded-md shadow-sm font-semibold;
+}

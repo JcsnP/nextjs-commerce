@@ -1,4 +1,5 @@
 import Link from "next/link";
+import SearchInput from "../input/search-input";
 
 export default function Navbar() {
   return (
@@ -17,6 +18,9 @@ export default function Navbar() {
           </li>
           <li>
             <Link href="/defend-systems">Defend Systems</Link>
+          </li>
+          <li>
+            <button className="bg-rose-600 py-0.5 px-2 rounded-md hover:bg-rose-700">Subscribe</button>
           </li>
         </ul>
       </div>
