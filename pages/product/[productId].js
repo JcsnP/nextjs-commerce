@@ -1,6 +1,7 @@
 import { readablePrice } from "@/lib/price";
 import { findById } from "@/lib/product";
 import Image from "next/image"
+import Link from "next/link";
 import { useRouter } from "next/router"
 
 export default function ViewProduct() {
@@ -19,7 +20,10 @@ export default function ViewProduct() {
 
   return (
     <div className="container mx-auto">
-      <div className="grid grid-cols-2 gap-y-3 gap-x-6 my-4">
+      <h1 className="my-2 border rounded-md border-gray-200 shadow-sm w-fit px-3 hover:bg-gray-200">
+        <Link href="/">Homepage</Link>
+      </h1>
+      <div className="grid grid-cols-2 gap-y-3 gap-x-6 mb-4">
         <div className="relative w-full h-[480px]">
           <Image
             src={product.image}
