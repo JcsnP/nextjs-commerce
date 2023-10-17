@@ -5,7 +5,8 @@
     "title": "Boeing AH-64 Apache",
     "image": "https://aviationweek.com/sites/default/files/styles/crop_freeform/public/2020-11/800px-rnlaf_ah-64_apache_at_the_oirschotse_heide_low_flying_area_36570605232.jpg?itok=aQpTwgau",
     "price": 540000,
-    "description": "An American twin-turboshaft attack helicopter with a tailwheel-type landing gear and a tandem cockpit for a crew of two. Nose-mounted sensors help acquire targets and provide night vision."
+    "description": "An American twin-turboshaft attack helicopter with a tailwheel-type landing gear and a tandem cockpit for a crew of two. Nose-mounted sensors help acquire targets and provide night vision.",
+    "type": "defend-systems"
   },
   {
     "id": 2,
@@ -13,7 +14,8 @@
     "title": "Mikoyan-Gurevich MiG-15",
     "image": "https://cdn.britannica.com/49/143749-050-D3F4C4FB/MiG-15.jpg",
     "price": 670000,
-    "description": "A jet fighter aircraft developed by Mikoyan-Gurevich for the Soviet Union. The MiG-15 was one of the first successful jet fighters to incorporate swept wings to achieve high transonic speeds."
+    "description": "A jet fighter aircraft developed by Mikoyan-Gurevich for the Soviet Union. The MiG-15 was one of the first successful jet fighters to incorporate swept wings to achieve high transonic speeds.",
+    "type": "defend-systems"
   },
   {
     "id": 3,
@@ -21,6 +23,25 @@
     "title": "Saturn V",
     "image": "https://media.defense.gov/2019/Jul/16/2002157763/-1/-1/0/190716-D-RQ659-0002.JPG",
     "price": 1200000,
-    "description": "A retired American super heavy-lift launch vehicle developed by NASA under the Apollo program for human exploration of the Moon. The rocket was human-rated, had three stages, and was powered with liquid fuel. It was flown from 1967 to 1973."
+    "description": "A retired American super heavy-lift launch vehicle developed by NASA under the Apollo program for human exploration of the Moon. The rocket was human-rated, had three stages, and was powered with liquid fuel. It was flown from 1967 to 1973.",
+    "type": "defend-systems"
+  },
+  {
+    "id": 4,
+    "name": "death start",
+    "title": "Death Star",
+    "image": "https://lumiere-a.akamaihd.net/v1/images/open-uri20150608-27674-1izkue_bc561fd4.jpeg?region=0%2C0%2C1200%2C675",
+    "price": 90000000,
+    "description": "The Death Star is a space station and superweapon featured in the Star Wars space-opera franchise. Constructed by the autocratic Galactic Empire, the Death Star is capable of annihilating entire planets into rubble, and serves to enforce the Empire's reign of terror.",
+    "type": "defend-systems"
+  },
+  {
+    "id": 5,
+    "name": "f22",
+    "title": "Lockheed Martin F-22 Raptor",
+    "image": "https://media.defense.gov/2021/Sep/17/2002856354/2000/2000/0/210911-Z-DY403-9158.JPG",
+    "price": 810000,
+    "description": "The Lockheed Martin/Boeing F-22 Raptor is an American single-seat, twin-engine, supersonic all-weather stealth fighter aircraft developed for the United States Air Force (USAF). As a product of the USAF's Advanced Tactical Fighter (ATF) program the aircraft was designed as an air superiority fighter, but also incorporates ground attack, electronic warfare, and signals intelligence capabilities.",
+    "type": "defend-systems"
   }
 ]

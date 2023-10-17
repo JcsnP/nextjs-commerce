@@ -20,14 +20,18 @@ export default function ProductCard(props) {
         <small className="text-rose-500 font-semibold mb-1">
           {readablePrice(price)}
         </small>
-        <p className="text-justify text-sm text-slate-600">
+        <p className="text-justify text-sm text-slate-600 h-32 overflow-y-hidden">
           {description}
         </p>
       </div>
 
       <div className="p-3 flex gap-2 items-center justify-around">
-        <button className="product-card--button bg-black text-white">+ Cart</button>
-        <button className="product-card--button bg-green-600 text-white hover:bg-green-700">Buy</button>
+        <button className="product-card--button bg-black text-white">
+          + Cart
+        </button>
+        <button className="product-card--button bg-green-600 text-white hover:bg-green-700">
+          Buy
+        </button>
       </div>
     </div>
   );

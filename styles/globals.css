@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+.title {
+  @apply mt-6 mb-5 text-4xl font-semibold;
+}
+
 .product-card--button {
   @apply w-full border py-1 rounded-md shadow-sm;
 }
